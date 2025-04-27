@@ -72,12 +72,14 @@ const LoginBody: React.FC<LoginBodyProps> = ({ translateX }) => {
                         placeholder="Email"
                         value={email}
                         onChangeText={setEmail}
+                        secureTextEntry={false}
                         icon={require('../assets/images/User.png')}
                     />
                     <InputField
                         placeholder="Senha"
                         value={password}
                         onChangeText={setPassword}
+                        secureTextEntry={true}
                         icon={require('../assets/images/Lock.png')}
                     />
                     <View style={styles.button} onTouchEnd={handleLogin}>
@@ -111,17 +113,20 @@ const LoginBody: React.FC<LoginBodyProps> = ({ translateX }) => {
                         placeholder="Numero de celular"
                         value={phoneNumber}
                         onChangeText={setPhoneNumber}
+                        secureTextEntry={false}
                         icon={require('../assets/images/smartphone.png')}
                     />
                     <InputField
                         placeholder="Email"
                         value={email}
+                        secureTextEntry={false}
                         onChangeText={setEmail}
                         icon={require('../assets/images/User.png')}
                     />
                     <InputField
                         placeholder="Senha"
                         value={password}
+                        secureTextEntry={true}
                         onChangeText={setPassword}
                         icon={require('../assets/images/Lock.png')}
                     />

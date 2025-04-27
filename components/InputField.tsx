@@ -7,9 +7,10 @@ interface InputFieldProps {
     value: string;
     onChangeText: (text: string) => void;
     icon: any;
+    secureTextEntry?: boolean; // Adicionando a propriedade inputType
 }
 
-const InputField: React.FC<InputFieldProps> = ({ placeholder, value, onChangeText, icon }) => {
+const InputField: React.FC<InputFieldProps> = ({ placeholder, value, onChangeText, icon, secureTextEntry }) => {
     return (
         <View style={styles.container}>
             <Image source={icon} style={styles.icon} />
@@ -19,6 +20,7 @@ const InputField: React.FC<InputFieldProps> = ({ placeholder, value, onChangeTex
                 placeholderTextColor="rgba(0, 0, 0, 0.3)"
                 value={value}
                 onChangeText={onChangeText}
+                secureTextEntry={secureTextEntry}
                 maxLength={50} // Limite de caracteres (opcional)
             />
         </View>
