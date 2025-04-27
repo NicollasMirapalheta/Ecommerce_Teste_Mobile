@@ -1,4 +1,4 @@
-import { CartContext } from '@/contexts/CartContext';
+import { CartContext } from '@/contexts/cartContext';
 import { useNavigation } from '@react-navigation/native';
 import React, { useContext, useState } from 'react';
 import { TouchableOpacity, View, StyleSheet, Text, Modal } from 'react-native';

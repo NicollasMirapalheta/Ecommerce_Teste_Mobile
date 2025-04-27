@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
-import { CartProvider } from '@/contexts/CartContext';
+import { CartProvider } from '@/contexts/cartContext';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -31,11 +31,11 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <CartProvider>
-        <Stack initialRouteName="(loginPage)/index">
-          <Stack.Screen name="(loginPage)/index" options={{ headerShown: false }} />
-          <Stack.Screen name="(tabs)/index" options={{ headerShown: false }} />
-          <Stack.Screen name="(tabs)/products" options={{ headerShown: false }} />
-          <Stack.Screen name="(tabs)/shoppingCart" options={{ headerShown: false }} />
+        <Stack initialRouteName="(screens)/login">
+          <Stack.Screen name="(screens)/login" options={{ headerShown: false }} />
+          <Stack.Screen name="(screens)/home" options={{ headerShown: false }} />
+          <Stack.Screen name="(screens)/products" options={{ headerShown: false }} />
+          <Stack.Screen name="(screens)/shoppingCart" options={{ headerShown: false }} />
           <Stack.Screen name="+not-found" />
         </Stack>
       </CartProvider>
