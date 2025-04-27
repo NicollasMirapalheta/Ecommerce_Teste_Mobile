@@ -31,12 +31,12 @@ const LoginBody: React.FC<LoginBodyProps> = ({ translateX }) => {
     const handleLogin = async () => {
         try {
             const response = await login(email, password);
-            navigation.navigate('(tabs)/index')
+            navigation.navigate('(screens)/home')
         } catch (error) {
             if (axios.isAxiosError(error)) {
                 // Se for um erro do Axios, podemos acessar o response
                 Alert.alert('Erro no Login', error.response?.data?.message || 'Algo deu errado');
-                navigation.navigate('(tabs)/index')
+                navigation.navigate('(screens)/home')
             } else if (error instanceof Error) {
                 // Se for um erro genérico do JavaScript
                 Alert.alert('Erro no Login', error.message);

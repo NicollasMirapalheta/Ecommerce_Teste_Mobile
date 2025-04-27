@@ -25,7 +25,7 @@ const ButtonProdutos: React.FC<ButtonProdutosProps> = ({ categoria }) => {
         <TouchableOpacity
           key={index}
           style={styles.touchable}
-          onPress={() => navigation.navigate('(tabs)/products', { produto })}
+          onPress={() => navigation.navigate('(screens)/products', { produto })}
         >
           <View>
             <View style={styles.row}>

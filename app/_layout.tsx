@@ -31,8 +31,8 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <CartProvider>
-        <Stack initialRouteName="(screens)/login">
-          <Stack.Screen name="(screens)/login" options={{ headerShown: false }} />
+        <Stack initialRouteName="(screens)/index">
+          <Stack.Screen name="(screens)/index" options={{ headerShown: false }} />
           <Stack.Screen name="(screens)/home" options={{ headerShown: false }} />
           <Stack.Screen name="(screens)/products" options={{ headerShown: false }} />
           <Stack.Screen name="(screens)/shoppingCart" options={{ headerShown: false }} />

@@ -12,7 +12,7 @@ const ButtonShoppingCart = () => {
                 <Text>Total sem a entrega</Text>
                 <Text>{`R$ ${cartSummary.totalPrice.toFixed(2)} | ${cartSummary.totalQuantity} item`}</Text>
             </View>
-            <TouchableOpacity onPress={() => {navigation.navigate('(tabs)/shoppingCart')}}>
+            <TouchableOpacity onPress={() => {navigation.navigate('(screens)/shoppingCart')}}>
                 <View style={styles.outerContainer}>
                     <Text style={{ fontSize: 16, color: 'white' }}>Ver carrinho</Text>
                 </View>
