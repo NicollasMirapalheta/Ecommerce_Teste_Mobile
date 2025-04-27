@@ -8,8 +8,6 @@ Antes de começar, certifique-se de ter os seguintes itens instalados e configur
 
    **Node.js** (recomendamos a última versão LTS).
 
-   **Expo CLI** (instale globalmente usando npm install -g expo-cli).
-
 Para executar o projeto:
 
    **Android Studio** (se deseja emular o aplicativo no Android).
