@@ -1,0 +1,70 @@
+{
+    "Produtos": [
+        {
+            "Id":1,
+            "Categoria": "Brinquedos",
+            "Nome": "Corda de puxar para cães",
+            "Descricao": "Brinquedo interativo para cães, feito de material resistente e seguro.",
+            "Material": "Nylon",
+            "Comprimento": "30 cm",
+            "Faixa etária": "Adultos e filhotes",
+            "Preco": 29.99,
+            "Estoque": 120,
+            "Marca": "PetPlay",
+            "ImagemURL": "https://m.media-amazon.com/images/I/51fz8k7EKaL._AC_SX679_.jpg"
+        },
+        {
+            "Id":2,
+            "Categoria": "Brinquedos",
+            "Nome": "Pelúcia com som para cães",
+            "Descricao": "Pelúcia macia e divertida, equipada com som interno para entreter o pet.",
+            "Material": "Tecido e enchimento de algodão",
+            "Altura": "15 cm",
+            "Faixa etária": "Filhotes",
+            "Preco": 49.99,
+            "Estoque": 80,
+            "Marca": "PetFun",
+            "ImagemURL": "https://m.media-amazon.com/images/I/41sig9bxmdL._AC_.jpg"
+        },
+        {
+            "Id":3,
+            "Categoria": "Brinquedos",
+            "Nome": "Disco de frisbee para cães",
+            "Descricao": "Frisbee leve e durável para exercícios ao ar livre.",
+            "Material": "Plástico",
+            "Diametro": "20 cm",
+            "Faixa etária": "Adultos e filhotes",
+            "Preco": 19.99,
+            "Estoque": 2,
+            "Marca": "PetActive",
+            "ImagemURL": "https://ae-pic-a1.aliexpress-media.com/kf/S3093141b252646a9bc1bf06243db65a4W.jpg_220x220q75.jpg"
+        },
+        {
+            "Id":4,
+            "Categoria": "Brinquedos",
+            "Nome": "Osso de borracha para cães",
+            "Descricao": "Brinquedo em formato de osso, ideal para mastigação e fortalecimento dos dentes.",
+            "Material": "Borracha",
+            "Comprimento": "12 cm",
+            "Faixa etária": "Adultos e filhotes",
+            "Preco": 24.99,
+            "Estoque": 140,
+            "Marca": "PetCare",
+            "ImagemURL": "https://m.media-amazon.com/images/I/51uzZbJkfxL._AC_SX679_.jpg"
+        },
+        {
+            "Id":5,
+            "Categoria": "Rações",
+            "Nome": "Ração Premium para gatos",
+            "Descricao": "Ração nutritiva para gatos adultos, rica em proteínas e vitaminas.",
+            "Peso": "2 kg",
+            "Ingredientes principais": "Frango, Arroz e Ômega 3",
+            "Faixa etária": "Adultos",
+            "Preco": 89.99,
+            "Estoque": 200,
+            "Marca": "NutriPet",
+            "Certificações": "ISO 22000 e Orgânico",
+            "ImagemURL": "https://m.media-amazon.com/images/I/81UE6Rh2IQL.__AC_SX300_SY300_QL70_ML2_.jpg"
+        }
+    ]
+}
