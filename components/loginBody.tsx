@@ -1,6 +1,6 @@
 // src/components/LoginBody.tsx
 import React, { useEffect, useState } from 'react';
-import { useLoginRender } from './StateLoginRender';
+import { useLoginRender } from '../contexts/stateLoginRender';
 import { StyleSheet, View, Text, Animated, Alert, Image } from 'react-native';
 import InputField from './InputField';
 import { login, register } from '../src/services/api';

@@ -2,7 +2,7 @@ import { Image, StyleSheet, View, Text, Animated,  ScrollView } from 'react-nati
 import { ThemedView } from '@/components/ThemedView';
 import BackgroudLogin from '@/assets/svg/backgroudLogin';
 import LoginBar from '@/components/LoginBar';
-import { LoginRenderProvider } from '@/components/StateLoginRender';
+import { LoginRenderProvider } from '@/contexts/stateLoginRender';
 import LoginBody from '@/components/LoginBody';
 import { useRef } from 'react';
 
